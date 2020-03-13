@@ -108,7 +108,7 @@ export class TimelineStream extends Component {
 								<Typography variant="body1">
 									<b className={classes.text}> 通道名称：</b> {item.channelName}{' '}
 									<br />
-									<b className={classes.text}> 区块哈希：</b> {item.datahash} <br />
+									<b className={classes.text}> 数据哈希：</b> {item.datahash} <br />
 									<b className={classes.text}> 交易数量：</b> {item.txcount}
 								</Typography>
 								<h5 className={classes.text}>
