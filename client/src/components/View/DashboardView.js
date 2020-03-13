@@ -140,7 +140,7 @@ export class DashboardView extends Component {
 			for (let i = 0; i < 3 && blockList && blockList[i]; i += 1) {
 				const block = blockList[i];
 				const notify = {
-					title: `Block ${block.blocknum} `,
+					title: `区块 ${block.blocknum} `,
 					type: 'block',
 					time: block.createdt,
 					txcount: block.txcount,
@@ -192,7 +192,7 @@ export class DashboardView extends Component {
 											<h1 className={classes.count}>{dashStats.latestBlock}</h1>
 										</Col>
 									</Row>
-									BLOCKS
+									 区块
 								</div>
 								<div className={`${classes.statistic} ${classes.vdivide}`}>
 									<Row>
@@ -205,7 +205,7 @@ export class DashboardView extends Component {
 											<h1 className={classes.count}>{dashStats.txCount}</h1>
 										</Col>
 									</Row>
-									TRANSACTIONS
+									 交易
 								</div>
 								<div className={`${classes.statistic} ${classes.vdivide}`}>
 									<Row>
@@ -218,7 +218,7 @@ export class DashboardView extends Component {
 											<h1 className={classes.count}>{dashStats.peerCount}</h1>
 										</Col>
 									</Row>
-									NODES
+									 节点
 								</div>
 								<div className={classes.statistic}>
 									<Row>
@@ -231,7 +231,7 @@ export class DashboardView extends Component {
 											<h1 className={classes.count}>{dashStats.chaincodeCount}</h1>
 										</Col>
 									</Row>
-									CHAINCODES
+									 链码
 								</div>
 							</Card>
 						</Col>
