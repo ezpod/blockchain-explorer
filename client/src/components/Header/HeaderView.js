@@ -475,12 +475,13 @@ export class HeaderView extends Component {
 		} = this.state;
 
 		const links = [
-			{ to: '/', label: 'DASHBOARD', exact: true },
-			{ to: '/network', label: 'NETWORK' },
-			{ to: '/blocks', label: 'BLOCKS' },
-			{ to: '/transactions', label: 'TRANSACTIONS' },
-			{ to: '/chaincodes', label: 'CHAINCODES' },
-			{ to: '/channels', label: 'CHANNELS' }
+			{ to: '/', label: '仪表盘', exact: true },
+			{ to: '/network', label: '网络' },
+			{ to: '/blocks', label: '区块' },
+			{ to: '/transactions', label: '交易' },
+			{ to: '/chaincodes', label: '链码' },
+			{ to: '/channels', label: '通道' },
+			{ to: 'http://www.hubwiz.com/course', label: '教程' }
 		];
 
 		return (
