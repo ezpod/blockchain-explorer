@@ -259,7 +259,7 @@ export class Login extends Component {
 							color="primary"
 							className={classes.submit}
 						>
-							Sign in
+							登录
 						</Button>
 					</form>
 				</Paper>
