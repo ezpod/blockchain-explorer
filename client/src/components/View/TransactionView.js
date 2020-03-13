@@ -126,7 +126,7 @@ export class TransactionView extends Component {
 									<Table striped hover responsive className="table-striped">
 										<tbody>
 											<tr>
-												<th>Transaction ID:</th>
+												<th>交易ID</th>
 												<td>
 													{transaction.txhash}
 													<button type="button" className={modalClasses.copyBtn}>
@@ -139,35 +139,35 @@ export class TransactionView extends Component {
 												</td>
 											</tr>
 											<tr>
-												<th>Validation Code:</th>
+												<th>验证代码</th>
 												<td>{transaction.validation_code}</td>
 											</tr>
 											<tr>
-												<th>Payload Proposal Hash:</th>
+												<th>载荷提议哈希</th>
 												<td>{transaction.payload_proposal_hash}</td>
 											</tr>
 											<tr>
-												<th>Creator MSP:</th>
+												<th>创建机构</th>
 												<td>{transaction.creator_msp_id}</td>
 											</tr>
 											<tr>
-												<th>Endoser:</th>
+												<th>背书机构</th>
 												<td>{transaction.endorser_msp_id}</td>
 											</tr>
 											<tr>
-												<th>Chaincode Name:</th>
+												<th>链码名称</th>
 												<td>{transaction.chaincodename}</td>
 											</tr>
 											<tr>
-												<th>Type:</th>
+												<th>交易类型</th>
 												<td>{transaction.type}</td>
 											</tr>
 											<tr>
-												<th>Time:</th>
+												<th>创建时间</th>
 												<td>{transaction.createdt}</td>
 											</tr>
 											<tr>
-												<th style={reads}>Reads:</th>
+												<th style={reads}>ReadSet</th>
 												<td className={classes.JSONtree}>
 													<JSONTree
 														data={transaction.read_set}
@@ -177,7 +177,7 @@ export class TransactionView extends Component {
 												</td>
 											</tr>
 											<tr>
-												<th style={writes}>Writes:</th>
+												<th style={writes}>WriteSet</th>
 												<td className={classes.JSONtree}>
 													<JSONTree
 														data={transaction.write_set}
