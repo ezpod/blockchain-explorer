@@ -161,7 +161,7 @@ export class Register extends Component {
 			<div className={classes.container}>
 				<Paper className={classes.paper}>
 					<Typography className={classes.title} component="h5" variant="headline">
-						Register User
+						注册用户
 					</Typography>
 					<MuiDialogTitle>
 						{onClose ? (
@@ -181,7 +181,7 @@ export class Register extends Component {
 								fullWidth
 								id="user"
 								name="user"
-								label="User"
+								label="用户"
 								disabled={isLoading}
 								value={user.value}
 								onChange={e => this.handleChange(e)}
@@ -201,7 +201,7 @@ export class Register extends Component {
 								id="password"
 								type="password"
 								name="password"
-								label="Password"
+								label="密码"
 								disabled={isLoading}
 								value={password.value}
 								onChange={e => this.handleChange(e)}
@@ -220,7 +220,7 @@ export class Register extends Component {
 								fullWidth
 								id="affiliation"
 								name="affiliation"
-								label="Affiliation"
+								label="联盟"
 								disabled={isLoading}
 								value={affiliation.value}
 								onChange={e => this.handleChange(e)}
@@ -241,7 +241,7 @@ export class Register extends Component {
 								id="roles"
 								type="roles"
 								name="roles"
-								label="Roles"
+								label="角色"
 								disabled={isLoading}
 								value={roles.value}
 								onChange={e => this.handleChange(e)}
@@ -283,12 +283,12 @@ export class Register extends Component {
 						>
 							<Grid item>
 								<Button fullWidth variant="contained" color="primary" onClick={onClose}>
-									Cancel
+									取消
 								</Button>
 							</Grid>
 							<Grid item>
 								<Button type="submit" fullWidth variant="contained" color="primary">
-									Register
+									注册
 								</Button>
 							</Grid>
 						</Grid>
