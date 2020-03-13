@@ -480,8 +480,7 @@ export class HeaderView extends Component {
 			{ to: '/blocks', label: '区块' },
 			{ to: '/transactions', label: '交易' },
 			{ to: '/chaincodes', label: '链码' },
-			{ to: '/channels', label: '通道' },
-			{ to: 'http://www.hubwiz.com/course', label: '教程' }
+			{ to: '/channels', label: '通道' }
 		];
 
 		return (
@@ -522,6 +521,14 @@ export class HeaderView extends Component {
 											</NavLink>
 										</li>
 									))}
+										<li>
+												<a href="http://www.hubwiz.com/course" 
+														target="_blank"
+														className={classes.tab}
+												>
+														教程
+												</a>
+										</li>									
 									<div className={classes.adminButton}>
 										<Select
 											className={classes.channel}
