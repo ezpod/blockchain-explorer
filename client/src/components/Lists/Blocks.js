@@ -415,7 +415,7 @@ export class Blocks extends Component {
 			<div>
 				<div className={`${classes.filter} row searchRow`}>
 					<div className={`${classes.filterElement} col-md-3`}>
-						<label className="label">From</label>
+						<label className="label">从</label>
 						<DatePicker
 							id="from"
 							selected={this.state.from}
@@ -432,7 +432,7 @@ export class Blocks extends Component {
 						/>
 					</div>
 					<div className={`${classes.filterElement} col-md-3`}>
-						<label className="label">To</label>
+						<label className="label">到</label>
 						<DatePicker
 							id="to"
 							selected={this.state.to}
@@ -464,7 +464,7 @@ export class Blocks extends Component {
 							shouldToggleOnHover={false}
 							selected={this.state.orgs}
 							options={this.state.options}
-							selectAllLabel="All Orgs"
+							selectAllLabel="所有机构"
 							onSelectedChanged={value => {
 								this.handleMultiSelect(value);
 							}}
@@ -479,7 +479,7 @@ export class Blocks extends Component {
 								await this.handleSearch();
 							}}
 						>
-							Search
+							搜索
 						</Button>
 					</div>
 					<div className="col-md-1">
@@ -490,7 +490,7 @@ export class Blocks extends Component {
 								this.handleClearSearch();
 							}}
 						>
-							Reset
+							复位
 						</Button>
 					</div>
 					<div className="col-md-1">
@@ -499,7 +499,7 @@ export class Blocks extends Component {
 							color="secondary"
 							onClick={() => this.setState({ filtered: [], sorted: [] })}
 						>
-							Clear Filter
+							 清除过滤条件
 						</Button>
 					</div>
 				</div>
