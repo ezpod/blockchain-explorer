@@ -50,7 +50,7 @@ export class Chaincodes extends Component {
 
 	reactTableSetup = classes => [
 		{
-			Header: 'Chaincode Name',
+			Header: '链码名称',
 			accessor: 'chaincodename',
 			filterMethod: (filter, rows) =>
 				matchSorter(
@@ -62,7 +62,7 @@ export class Chaincodes extends Component {
 			filterAll: true
 		},
 		{
-			Header: 'Channel Name',
+			Header: '通道名称',
 			accessor: 'channelName',
 			filterMethod: (filter, rows) =>
 				matchSorter(
@@ -74,7 +74,7 @@ export class Chaincodes extends Component {
 			filterAll: true
 		},
 		{
-			Header: 'Path',
+			Header: '链码路径',
 			accessor: 'path',
 			filterMethod: (filter, rows) =>
 				matchSorter(
@@ -86,7 +86,7 @@ export class Chaincodes extends Component {
 			filterAll: true
 		},
 		{
-			Header: 'Transaction Count',
+			Header: '交易数量',
 			accessor: 'txCount',
 			filterMethod: (filter, rows) =>
 				matchSorter(
@@ -98,7 +98,7 @@ export class Chaincodes extends Component {
 			filterAll: true
 		},
 		{
-			Header: 'Version',
+			Header: '版本',
 			accessor: 'version',
 			filterMethod: (filter, rows) =>
 				matchSorter(
