@@ -35,7 +35,8 @@ const FooterView = ({ classes }) => (
         &emsp;
         {'Fabric兼容性： '} {Version.map(v => v)}
         &emsp;
-        {'技术支持： 汇智网'}
+        {'技术支持： '}
+        <a href="http://www.hubwiz.com" target="_blank">汇智网</a>
       </div>
     </div>
   </div>
