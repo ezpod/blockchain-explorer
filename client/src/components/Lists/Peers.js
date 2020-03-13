@@ -11,7 +11,7 @@ import { peerListType } from '../types';
 const Peers = ({ peerList }) => {
 	const columnHeaders = [
 		{
-			Header: 'Peer Name',
+			Header: '节点名称',
 			accessor: 'server_hostname',
 			filterMethod: (filter, rows) =>
 				matchSorter(
@@ -23,7 +23,7 @@ const Peers = ({ peerList }) => {
 			filterAll: true
 		},
 		{
-			Header: 'Request Url',
+			Header: '请求Url',
 			accessor: 'requests',
 			filterMethod: (filter, rows) =>
 				matchSorter(
@@ -35,7 +35,7 @@ const Peers = ({ peerList }) => {
 			filterAll: true
 		},
 		{
-			Header: 'Peer Type',
+			Header: '节点类型',
 			accessor: 'peer_type',
 			filterMethod: (filter, rows) =>
 				matchSorter(
@@ -59,10 +59,10 @@ const Peers = ({ peerList }) => {
 			filterAll: true
 		},
 		{
-			Header: 'Ledger Height',
+			Header: '账本高度',
 			columns: [
 				{
-					Header: 'High',
+					Header: '高32位',
 					accessor: 'ledger_height_high',
 					filterMethod: (filter, rows) =>
 						matchSorter(
@@ -74,7 +74,7 @@ const Peers = ({ peerList }) => {
 					filterAll: true
 				},
 				{
-					Header: 'Low',
+					Header: '低32位',
 					accessor: 'ledger_height_low',
 					filterMethod: (filter, rows) =>
 						matchSorter(
@@ -86,7 +86,7 @@ const Peers = ({ peerList }) => {
 					filterAll: true
 				},
 				{
-					Header: 'Unsigned',
+					Header: '无符号',
 					id: 'ledger_height_unsigned',
 					accessor: d => d.ledger_height_unsigned.toString(),
 					filterMethod: (filter, rows) =>
