@@ -2,12 +2,12 @@ Hyperledger Explorer是一个简单易用的开源工具，可以用于监视
 区块链网络中的活动。Hyperledger Explorer支持Fabric、Iroha等
 多种区块链，可以运行在MocOS和Ubuntu下。
 
-> Hyperledger Fabric区块链开发教程：
+> Hyperledger Fabric区块链开发教程与工具：
 >
->- [Fabric区块链Node.js开发详解](http://xc.hubwiz.com/course/5c95f916a8d86b7067ffebb8?affid=blog7878) 
->- [Fabric区块链Java开发详解](http://xc.hubwiz.com/course/5c9b89f54898e59b7b63430a?affid=blog7878) 
->- [Fabric区块链Golang开发详解](http://xc.hubwiz.com/course/5e256bed6831eec33c15d9c0?affid=blog7878)
-
+>- [Fabric区块链Node.js开发详解](http://xc.hubwiz.com/course/5c95f916a8d86b7067ffebb8?affid=github7878) 
+>- [Fabric区块链Java开发详解](http://xc.hubwiz.com/course/5c9b89f54898e59b7b63430a?affid=github7878) 
+>- [Fabric区块链Golang开发详解](http://xc.hubwiz.com/course/5e256bed6831eec33c15d9c0?affid=github7878)
+>- [Fabric区块链Windows一键安装工具](http://sc.hubwiz.com/codebag/byfn-win/?affid=github7878)
 
 ## 1.0 Hyperledger Explorer与Fabirc版本对应关系说明
 
