@@ -522,7 +522,7 @@ export class HeaderView extends Component {
 										</li>
 									))}
 										<li>
-												<a href="http://www.hubwiz.com/course" 
+												<a href="http://www.hubwiz.com/course?affid=fxl7878" 
 														target="_blank"
 														className={classes.tab}
 												>
