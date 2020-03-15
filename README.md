@@ -148,6 +148,13 @@ git clone https://github.com/hyperledger/blockchain-explorer.git
 cd blockchain-explorer
 ```
 
+如果你的网络不是很好，可能上面的命令会执行很长时间。发生这种情况时，可以只保留最新的变更：
+
+```
+git clone https://github.com/hyperledger/blockchain-explorer.git -depth=1
+cd blockchain-explorer
+```
+
 ## 5.0 PostgreSQL数据库设置
 
 首先进入app目录：
