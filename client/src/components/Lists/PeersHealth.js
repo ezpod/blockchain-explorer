@@ -24,7 +24,7 @@ const styles = theme => ({
 const PeersHealth = ({ peerStatus, classes }) => {
 	const columnHeaders = [
 		{
-			Header: 'Peer Name',
+			Header: '节点名称',
 			accessor: 'server_hostname',
 			filterAll: false,
 			className: classes.center
